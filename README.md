@@ -2,17 +2,18 @@
 
 VideoTracking.java recognizes and tracks every white circle with R > 250 and more than 13 pixels of size
 
-UI built with WindowBuilder https://eclipse.org/windowbuilder/
-lib used http://opencv.org/
+UI built with WindowBuilder https://eclipse.org/windowbuilder
+lib used http://opencv.org
 
 For the purpose of this project, 3 algorithms were implemented:
-Tracking by nearest point
-Tracking by image comparison
-Tracking based on model
+
+	Tracking by nearest point
+	Tracking by image comparison
+	Tracking based on model
 
 Methods:
-	void findCircles(Mat mat) find every circle containing a pixel with intensity > 250
 
+	void findCircles(Mat mat) find every circle containing a pixel with intensity > 250
 	void floodFillCircle(Position seed, Mat m, HashMap<String, Position> positions) called recursively in order to find every seed's neighboor with intensity > 100 and include it in positions, where are stored all white pixels of the marker
 
 	void clear() clears temp data structures
