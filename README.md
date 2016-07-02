@@ -32,13 +32,14 @@ Methods:
 
 	int calculateSumOfAbsoluteDifferencesBetween(int[][] m1, int[][] m2) calculates the sum of absolute difference comparing m1 and m2
 
-	void main(String[] args)
-	features within main not declared outside:
-	calculates the center for every marker found
-	tracks the markers and draw the skeleton lines
-	calls different algorithms based on static int ALGORITHM
+void main(String[] args)
+features within main not declared outside:
+calculates the center for every marker found
+tracks the markers and draw the skeleton lines
+calls different algorithms based on static int ALGORITHM
 
 temp data structures:
+
 	static List<HashMap<String, Position>> circles stores every circle only with its pixels (key: x+y, value: class Position stores x and y - equivalent to opencv Point)
 	static HashMap<String, Position> visitedWhitePixels contains all visited white pixels to check before flooding new marker
 	static List<Circle> circlesDiscovered actual circle class
