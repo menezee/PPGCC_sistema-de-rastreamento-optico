@@ -2,7 +2,7 @@
 
 VideoTracking.java recognizes and tracks every white circle with R > 250 and more than 13 pixels of size
 
-UI built with WindowBuilder https://eclipse.org/windowbuilder,
+UI built with WindowBuilder https://eclipse.org/windowbuilder <br />
 lib used http://opencv.org
 
 For the purpose of this project, 3 algorithms were implemented:
@@ -34,6 +34,7 @@ Methods:
 	int calculateSumOfAbsoluteDifferencesBetween(int[][] m1, int[][] m2) calculates the sum of absolute difference comparing m1 and m2
 
 void main(String[] args)
+
 	features within main not declared outside:
 	calculates the center for every marker found
 	tracks the markers and draw the skeleton lines
