@@ -33,9 +33,9 @@ Methods:
 
 	int calculateSumOfAbsoluteDifferencesBetween(int[][] m1, int[][] m2) calculates the sum of absolute difference comparing m1 and m2
 
-void main(String[] args)
+void main(String[] args) <br />
+features within main not declared outside:
 
-	features within main not declared outside:
 	calculates the center for every marker found
 	tracks the markers and draw the skeleton lines
 	calls different algorithms based on static int ALGORITHM
